@@ -18,4 +18,4 @@ print(x[:36])
 print(x[38:])
 print(x[16:23])
 
-print(x.split("!"))
+print(x.split(","))
