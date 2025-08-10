@@ -12,6 +12,7 @@ x = {1, 2, 3, 4, 5, 1}#the dublicat well be removed
 print(f"the {x} is a {type(x)}")
 x = {"one" : 1, "two" : 2, "three" : 3}
 print(f"the {x} is a {type(x)}")
+print(x["one"])
 x = frozenset({"10", "20", "30"})
 print(f"the {x} is a {type(x)}")
 x = b"Hello"	
