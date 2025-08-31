@@ -1,0 +1,88 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 10%;
+    width: 360px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input-container {
+    display: flex;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 8px 0 0 8px;
+}
+
+.input-container input :focus {
+    background-color: darkblue;
+}
+
+.input-container button {
+    background: blue;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+}
+
+.input-container button:hover {
+    background: darkblue;
+}
+
+.task-list {
+    margin-top: 10px;
+    padding: 0
+}
+
+.task-list li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    margin: 8px 0 0 0;
+    padding: 8px;
+}
+
+.task-list li:hover {
+    background: whitesmoke;
+}
+
+.task-list li span {
+    flex: 1;
+    font-size: 15px;
+    color: black;
+    margin-left: 10px;
+}
+
+.task-list li .delete {
+    border: 2px solid lightgray;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    color: gray;
+}
+
+.task-list li .delete:hover {
+    color: red;
+    border-color: whitesmoke;
+}
